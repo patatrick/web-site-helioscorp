@@ -1,0 +1,8 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800italic);@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic);
+
+.page1-img1:hover {filter:alpha(opacity=0)}
+
+#search input,
+.sf-menu ul li,
+.button1,
+.page1-box1 {behavior:url(js/PIE.htc);position:relative}

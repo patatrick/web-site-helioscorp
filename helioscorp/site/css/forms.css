@@ -1,0 +1,96 @@
+
+	
+	/***** Contact form *****/
+#form1 {
+	position:relative;
+	vertical-align:top;
+	z-index:1;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#form1 fieldset {
+border:none;
+padding:0;
+}
+
+
+
+#form1 label {
+    display: block;
+    min-height: 46px;
+    position: relative;
+    width: 541px;
+}
+
+#form1 label.message {
+    height: 293px;
+    width: 541px;
+}
+
+.p27 {
+	margin-left:20px;
+}
+
+#form1 input {
+	outline: none;
+	border:1px solid #222226;
+	color: #707070;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0;
+	height:16px;
+	line-height:16px;
+	padding: 9px 13px;
+    width: 319px;
+	background:#353539;
+	display:inline-block;
+}
+#form1 .area .error { float:none;}
+
+#form1 textarea {
+    background: none repeat scroll 0 0 #353539;
+    border: 1px solid #222226;
+    color: #707070;
+    display: block;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    height: 246px;
+    margin: 0;
+    outline: medium none;
+    overflow: auto;
+	line-height:16px;
+    padding: 9px 13px;
+    resize: none;
+    width: 512px;
+}
+
+#form1 a {cursor:pointer;}
+#form1 .success {
+	display:none;
+	position: absolute;
+	left: 0px;
+	top: -22px;
+	color:#717171;
+	font-size:12px;
+}
+#form1 .error,
+#form1 .empty {
+	color:#f00;
+	font-size:11px;
+	line-height:1.25em;
+	display:none;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow:hidden;
+	position:absolute;
+	left:350px;
+	top:3px;
+}
+#form1 .message .error,
+#form1 .message .empty  {
+	left: 0px;
+    top: 267px;
+}
+
+.link-form {
+	float: right;
+}
