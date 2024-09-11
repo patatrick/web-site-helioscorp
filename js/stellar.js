@@ -16,7 +16,7 @@
 			horizontalScrolling: true,
 			verticalScrolling: true,
 			horizontalOffset: 0,
-			verticalOffset: 0,
+			verticalOffset: -10,
 			responsive: false,
 			parallaxBackgrounds: true,
 			parallaxElements: true,
@@ -28,10 +28,10 @@
 
 		scrollProperty = {
 			scroll: {
-				getLeft: function($elem) { return $elem.scrollLeft(); },
+				getLeft: function($elem) { return $elem.scrollLeft() * 0.4; },
 				setLeft: function($elem, val) { $elem.scrollLeft(val); },
 
-				getTop: function($elem) { return $elem.scrollTop();	},
+				getTop: function($elem) { return $elem.scrollTop() * 0.4;	},
 				setTop: function($elem, val) { $elem.scrollTop(val); }
 			},
 			position: {
