@@ -7,16 +7,14 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<meta content="SEGURIDAD Y TECNOLOGÍA | HELIOSCORP Chile SPA" property="og:title">
+	<meta content="Tecnología y seguridad | HELIOSCORP Chile SPA" property="og:title">
 	<meta name="description"
-	content="La seguridad y la tecnología es nuestro camino. Nuestro objetivo es 
-	transformar la sociedad desde nuestro lugar, crear espacios más aptos para la vida 
-	humana y animal, fortelecer la institución y a las personas en su conjunto, proteger
-	los intereses de nuestros clientes, su salud, su vida y sus objetos patrimoniales con 
-	nuestras aplicaciones y softwares.">
+	content="Nuestra misión es proteger a empresas y usuarios de amenazas cibernéticas mediante soluciones tecnológicas innovadoras,
+	confiables y personalizadas, garantizando la seguridad de su información y promoviendo una cultura de prevención
+	en el entorno digital.">
 	<meta name="keywords"
-	content="helioscorp chile spa, seguridad, tecnología, aplicaciones, software inteligencia aritifcial, electrónica, sitios web, redes sociales, seguridad en condominios, seguridad en empresas, ciencia, cuidar, proteger, helioscorp, helios, somos el cambio, watch, we are the change">
-	<meta property="og:image" content="	https://helioscorp.org/images/helios.jpg">
+	content="helioscorp chile spa, ciberseguridad, tecnología, aplicaciones, software inteligencia aritifcial, electrónica, sitios web, redes sociales, seguridad en condominios, seguridad en empresas, ciencia, cuidar, proteger, helioscorp, helios, somos el cambio, watch, we are the change">
+	<meta property="og:image" content="	https://helioscorp.org/images/logo-1.png">
 	<meta property="og:url" content="https://helioscorp.org/">
 
 	<!-- CSS Bootstrap 4.3.1 -->
@@ -34,6 +32,19 @@
 
 	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<style>
+		#slogan {
+			display: flex;
+			flex-direction: column;
+			position: absolute;
+			background-color: rgba(0, 55, 115, .65);
+			padding: 8px;
+			height: 400px;
+			justify-content: center;
+			top: 91px;
+			width: 100%;
+		}
+	</style>
 </head>
 
 <body>
@@ -63,21 +74,38 @@
 			</menu>
 		</section>
 	</nav>
-	<header class="contenedor parallax p1" data-stellar-background-ratio="3">
-		<div class="" id="particles-js" style="height:100vh;"></div>
+	<header class="contenedor parallax p1" data-stellar-background-ratio="3" style="height: 100vh;">
+		<div class="" id="particles-js"></div>
 		<hgroup id="slogan">
-			<h1>Seguridad y Tecnología</h1>
-			<h6>WE ARE THE CHANGE</h6>
+			<h1>Tecnología Y Seguridad</h1>
+			<h6>La tecnología que protege lo que más valoras.</h6>
 		</hgroup>
 		<img src="images/ejemplo_3.svg" width="100%" style="position: absolute;bottom:-1px;transform: rotateY(180deg);">
 	</header>
-	<section class="container-fluid" style="background-color: #252525">
-		<article class="row" id="servicios">
-			<header class="col-12 mt-4">
-				<h2 class="w-100 d-block text-center mb-5 text-white">SERVICIOS</h2>
+	<section class="container-fluid d-md-flex mt-5" style="background-color: #252525">
+		<aside class="row px-2 px-sm-5 px-md-0">
+			<section class="col-12 text-right">
+				<blockquote class="blockquote">
+					<p style="color:gainsboro;text-align: right;">
+						<i class="fas fa-quote-left" style="position: relative;top: -8px;"></i>
+						<cite>
+							Nuestro objetivo es transformar la sociedad en un lugar seguro, crear espacios más aptos
+							para la vida, fortalecer la institución y a las personas en su conjunto,
+							proteger a nuestros clientes, su salud, su vida y su patrimonio
+							con nuestras aplicaciones.
+						</cite>
+						<i class="fas fa-quote-right" style="position: relative;top: 4px;"></i>
+					</p>
+				  </blockquote>
+			</section>
+			<div class="line my-5 d-md-none"></div>
+		</aside>
+		<article class="row rowServicio">
+			<header class="col-12">
+				<h2 class="w-100 d-block text-center mb-3 mb-sm-5 text-white">SERVICIOS</h2>
 			</header>
-			<section class="col-12" id="servicios">
-				<ul id="hexGrid">
+			<section class="col-12 px-0" id="servicios">
+				<ul id="hexGrid" class="px-1 px-md-4">
 					<li class="hex">
 						<div class="hexIn">
 							<a class="hexLink" href="#">
@@ -170,108 +198,63 @@
 				bottom: -37px;">
 		</div>
 	</article>
-	<section id="about" class="container-fluid py-5" style="background-image: url('images/ej1.png');background-repeat: no-repeat;background-position: left top;background-color: #9f9f9f;">
-		<section class="row">
-			<article class="col-12 mb-5" style="margin-bottom: 100px !important">
+	<section id="about" class="container-fluid" style="background-image: url('images/ej1.png');background-repeat: no-repeat;background-position: left top;background-color: #01254B;">
+		<div class="row">
+			<article class="col-12">
 				<hgroup>
-					<h2>HELIOSCORP</h2>
-					<h3 class="w-100 text-sm-right text-center mt-2">NUESTRA MISIÓN</h3>
-					<h6 class="w-100 text-right" style="font-weight: 500">Y RESPONSABILIDAD SOCIAL</h6>
+					<h3 class="w-100 text-sm-right text-center mt-2 text-white">Misión y Visión</h3>
+					<h6 class="w-100 text-right text-white" style="font-weight: 500">Y RESPONSABILIDAD SOCIAL</h6>
 				</hgroup>
 				<section class="row">
-					<section class="col-md-6 col-12 ml-auto">
-						<section class="card my-3" style="background-color: transparent;">
+					<div class="col-lg-6 col-xl-8 col-12 ml-auto">
+						<div class="card mt-3 p-4" style="background-color: rgba(255,255,255, .3);">
 							<section class="card-body">
-								<p class="card-text" style="color: snow;">
-									La ciencia y la tecnología es nuestro camino. Nuestro objetivo es
-									transformar la sociedad desde nuestro lugar, crear espacios más aptos para la vida
-									humana y animal, fortelecer la institución y a las personas en su conjunto, proteger
-									los intereses de nuestros clientes, su salud, su vida y sus objetos patrimoniales con
-									nuestras aplicaciones y softwares.
+								<p class="card-text" style="color: black;text-align: justify;">
+									Nuestra misión es proteger a empresas y usuarios de amenazas cibernéticas mediante soluciones tecnológicas innovadoras,
+									confiables y personalizadas, garantizando la seguridad de su información y promoviendo una cultura de prevención
+									en el entorno digital.
 								</p>
-								<p class="card-text" style="color: snow;">
+								<p class="card-text" style="color: black;text-align: justify;">
+									Seremos la empresa líder en soluciones de ciberseguridad a nivel global, proporcionando tecnologías 
+									innovadoras y servicios de protección que garanticen la seguridad digital de organizaciones y personas,
+								</p>
+								<!-- <p class="card-text" style="color: black;text-align: justify;">
 									Helioscorp nace en Chile el 04/04/2020 en medio de la pandemia del Sars Cov 2 2019, por lo que todos nuestros planes comerciales se vieron interrumpidos por la misma, pero entendemos que este proceso fue necesario para crecer en conocimiento y estructuras, así como objetivos y planes comerciales, la empresa está estructurada como una plataforma central y con alcances gracias a sus asociados regionales los cuales son la representación comercial, local de la misma y responden directamente a la organización que formamos todos los que componemos Helioscorp.
-								</p>
+								</p> -->
 							</section>
-						</section>
-					</section>
+						</div>
+					</div>
 				</section>
 			</article>
-			<div class="col-12 text-center">
-				<img src="images/watch.gif" class="gif mb-3">
-			</div>
-		</section>
+			<section class="col-12 text-center">
+				<img src="images/watch.gif" class="gif">
+			</section>
+		</div>
 	</section>
 
-	<div class="container-fluid" style="background-image:url(images/texture.png);">
-		<div class="tri"></div>
-		<div class="row" id="contacto">
-			<div class="col-12 text-center my-5 mx-auto w-100" style="max-width: 630px;">
+	<footer class="container-fluid" style="background-image:url(images/texture.png);">
+		<header class="row py-5" id="contacto">
+			<hgroup class="col-12 text-center my-5 mx-auto w-100" style="max-width: 630px;">
 				<img src="images/arrow-left.svg" style="width: 50px;float: left;margin-top: 50px" />
 				<img src="images/arrow-right.svg" style="width: 50px;float: right;margin-top: 50px" />
 				<h2 class="mx-auto" style="color: snow;">CONTÁCTANOS</h2>
-			</div>
-		</div>
-		<div class="container" style="margin-top: 80px">
-			<div class="row contact">
-				<form class="col-12 col-md-6 form-group">
-					<div class="row" id="eclipse">
-						<div class="col-5">
-							<i id="izq" class="fas fa-sun"></i>
-						</div>
-						<div class="col-2 text-center">
-							<i onclick="Animar()" id="globo" class="fas fa-globe-americas"></i>
-						</div>
-						<div class="col-5">
-							<i class="fas fa-circle" id="der"></i>
-						</div>
-					</div>
-					<label style="display: none;">Nombre completo
-						<input type="text" name="nombre" class="form-control" maxlength="50" required />
-					</label>
-					<label style="display: none;">Email
-						<input type="email" name="email" class="form-control" maxlength="50" required />
-					</label>
-					<label style="display: none;">Motivo
-						<textarea name="motivo" class="form-control" maxlength="500" required style="height: 250px;resize: none;"></textarea>
-					</label>
-					<label style="display: none;" class="col-12 px-0 text-right">
-						<input type="submit" class="btn" />
-					</label>
-				</form>
-				<div class="col-12 col-md-6 my-auto ml-md-auto contact2">
-					<div class="row mt-5 mt-md-0">
-						<div class="col-2"><i class="far fa-envelope"></i></div>
-						<label class="col-10">
-							<a href="mailto:contacto@helioscorp.org">contacto@helioscorp.org</a>
-						</label>
-					</div>
-					<div class="row social">
-						<div class="col-12 pt-2">
-							<!-- <i class="fab fa-facebook m-1"></i> -->
-							<a href="https://instagram.com/helioscorpchilespa" target="_BLANK"><i class="fab fa-instagram m-1"></i></a>
-							<a href="https://twitter.com/helioscorpspa" target="_BLANK">
-								<i class="fab fa-twitter m-1"></i>
-							</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="row">
+			</hgroup>
+		</header>
+		<section class="row social">
+			<address class="col-12 pt-2">
+				<a href="mailto:contacto@helioscorp.org"><i class="fas fa-envelope m-1"></i></a>
+				<a href="https://instagram.com/helioscorpchilespa" target="_BLANK"><i class="fab fa-instagram m-1"></i></a>
+				<a href="https://twitter.com/helioscorpspa" target="_BLANK">
+					<i class="fab fa-twitter m-1"></i>
+				</a>
+			</address>
+		</section>
+		<address class="row">
 			<small class="col-12 text-center pb-5 pt-3" style="color:#9F9F9F">
 				<i class="far fa-copyright"></i> Helioscorp All rights reserved.
 			</small>
-		</div>
-	</div>
-	<!-- <section>
-		<p>
-			EL FIN DEL MIEDO
-		</p>
-		<p>
-			<span id="days"></span> días / <span id="hours"></span> horas / <span id="minutes"></span> minutos / <span id="seconds"></span> segundos
-		</p>
-	</section> -->
+		</address>
+	</footer>
 <script src="js/particles.js"></script>
 <script src="js/particulas.js"></script>
 <script src="js/stellar.js"></script>
